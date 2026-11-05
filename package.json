@@ -1,0 +1,39 @@
+{
+  "name": "website",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev",
+    "build": "react-router build"
+  },
+  "dependencies": {
+    "@react-router/node": "^8.5.1",
+    "isbot": "^5.2.2",
+    "lucide-react": "latest",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router": "^8.5.1"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^8.5.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "daisyui": "^5.7.50",
+    "oxfmt": "^0.75.0",
+    "react-router-auto-routes": "^1.0.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "packageManager": "pnpm@10.28.2",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "gistajs": {
+    "pin": "website:2026-11-05-003"
+  }
+}
